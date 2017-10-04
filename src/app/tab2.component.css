@@ -1,0 +1,32 @@
+.slide-out-toggle {
+  display: inline-block;
+  position: relative;
+  width: 380px;
+  height: 400px;
+  vertical-align: top;
+}
+
+.slide-out-content {
+  display: inline-block;
+  position: relative;
+  border-left: 1px solid;
+  width: 400px;
+  height: 400px;
+}
+
+.label {
+  height: 20px;
+  width: 300px;
+}
+
+.simple_input {
+  height: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.multiline_input {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 10px;
+}

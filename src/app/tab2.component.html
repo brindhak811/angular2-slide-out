@@ -1,0 +1,22 @@
+<div>
+  <div class="slide-out-toggle">
+    <a class="slide-out-link" [routerLink]="tab2" (click)=toggleMenu()>Open Contact Slideout</a>
+  </div>
+  <div class="slide-out-content">
+    <form class="form-group" [formGroup]="form" (ngSubmit)="onSubmit()">
+      <slide-out title="Contact" action="Send" [state]="toggleState" (closePanel)="close($event)">
+          <label>Name</label>
+          <br>
+          <input formControlName="name" class="simple_input">
+          <br>
+          <label>Surname</label>
+          <br>
+          <input formControlName="surname" class="simple_input">
+          <br>
+          <label>Messages</label>
+          <br>
+          <textarea formControlName="message" class="multiline_input"></textarea>
+      </slide-out>
+    </form>
+  </div>
+</div>

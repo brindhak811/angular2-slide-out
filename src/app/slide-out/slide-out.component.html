@@ -1,0 +1,12 @@
+<div class="slide-out" id="slideout" [@slideInOut]="state">
+  <div class="slide-out-header">
+    <h2 class="slide-out-title">{{ title }}</h2>
+    <button class="slide-out-close-btn" (click)=closePanel.emit()>X</button>
+  </div>
+  <div class="slide-out-form">
+    <ng-content></ng-content>
+  <div>
+  <div class="slide-out-footer">
+    <button class="slide-out-submit-btn">{{ action }}</button>
+  </div>
+</div>

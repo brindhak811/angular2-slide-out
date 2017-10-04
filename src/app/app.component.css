@@ -1,0 +1,12 @@
+li {
+    display: inline;
+}
+
+.tab-content {
+  position: absolute;
+  margin: 100px;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid;
+}
