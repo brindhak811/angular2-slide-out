@@ -1,4 +1,3 @@
-// Karma configuration file, see link for more information
 
 module.exports = function (config) {
   config.set({
